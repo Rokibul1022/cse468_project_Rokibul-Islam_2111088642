@@ -1,0 +1,1 @@
+Case: case0238\nSlice: case0238_slice014_image\nLesion: 308 pixels (0.614%)\nImage size: (224, 224)\n

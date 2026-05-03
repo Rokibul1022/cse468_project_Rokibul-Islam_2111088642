@@ -1,0 +1,24 @@
+STAGE 2: STEGO + BOUNDARY-CONTRASTIVE SSL
+============================================================
+
+TRAINING CONFIGURATION:
+  Epochs Completed: 13
+  Final Loss: 0.011713
+
+CLUSTER LEARNING:
+  Number of Clusters: 4
+  Cluster Dimension: 128
+  Mean Similarity: 0.0298
+  Status: [OK] DISTINCT
+
+WHAT WAS LEARNED:
+  [OK] Unsupervised tissue clustering (4 clusters)
+  [OK] Boundary detection between regions
+  [OK] Pseudo-labels for unlabeled data
+  [OK] Spatial coherence in features
+
+NEXT STEPS:
+  -> Stage 3: Fine-tune with 10% labeled data
+  -> Command: LABEL_FRACTION=0.1 bash medical_stego/scripts/run_finetune.sh
+
+============================================================
