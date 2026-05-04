@@ -48,7 +48,7 @@ This project demonstrates **label-efficient medical image segmentation** using s
 **Our Solution:**
 - Use self-supervised learning to learn from unlabeled data
 - Fine-tune with only 10% labeled data
-- Achieve **90% cost savings** ($700,380 saved)
+- Achieve **90% cost savings** ($700,380 saved)(approximate)
 - Maintain competitive performance (96.8% background, 14.5% tumor Dice)
 
 ###  Academic Contribution
